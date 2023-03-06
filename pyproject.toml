@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "machine-learning-california"
+version = "0.1.0"
+description = "Project California"
+authors = ["Pedro <pedrosrvd@al.insper.edu.br>"]
+readme = "README.md"
+packages = [{include = "machine_learning_california"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
